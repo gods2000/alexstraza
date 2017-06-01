@@ -18,7 +18,7 @@ public:
     Sniper();
     virtual ~Sniper();
     
-    virtual void disply() override;
+    virtual void disply() override; 
     
 };
 
