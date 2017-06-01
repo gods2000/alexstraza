@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2B06C091EDFB66F0057C82F /* Solider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2B06C071EDFB66F0057C82F /* Solider.cpp */; };
+		C2B06C0C1EDFB7430057C82F /* Infantryman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2B06C0A1EDFB7430057C82F /* Infantryman.cpp */; };
+		C2B06C0F1EDFB89F0057C82F /* Sniper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2B06C0D1EDFB89F0057C82F /* Sniper.cpp */; };
+		C2B06C121EDFE6830057C82F /* WeaponBehavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2B06C101EDFE6830057C82F /* WeaponBehavior.cpp */; };
 		C2B204821ED6713600FCB408 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2B204811ED6713600FCB408 /* main.cpp */; };
+		C2B2048F1ED671E700FCB408 /* StrategyPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2B2048D1ED671E700FCB408 /* StrategyPattern.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C2B06C071EDFB66F0057C82F /* Solider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solider.cpp; sourceTree = "<group>"; };
+		C2B06C081EDFB66F0057C82F /* Solider.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solider.hpp; sourceTree = "<group>"; };
+		C2B06C0A1EDFB7430057C82F /* Infantryman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Infantryman.cpp; sourceTree = "<group>"; };
+		C2B06C0B1EDFB7430057C82F /* Infantryman.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Infantryman.hpp; sourceTree = "<group>"; };
+		C2B06C0D1EDFB89F0057C82F /* Sniper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sniper.cpp; sourceTree = "<group>"; };
+		C2B06C0E1EDFB89F0057C82F /* Sniper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sniper.hpp; sourceTree = "<group>"; };
+		C2B06C101EDFE6830057C82F /* WeaponBehavior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WeaponBehavior.cpp; sourceTree = "<group>"; };
+		C2B06C111EDFE6830057C82F /* WeaponBehavior.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WeaponBehavior.hpp; sourceTree = "<group>"; };
 		C2B2047E1ED6713600FCB408 /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B204811ED6713600FCB408 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C2B2048D1ED671E700FCB408 /* StrategyPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrategyPattern.cpp; sourceTree = "<group>"; };
+		C2B2048E1ED671E700FCB408 /* StrategyPattern.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StrategyPattern.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +72,27 @@
 		C2B204801ED6713600FCB408 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				C2B2048C1ED671E700FCB408 /* StrategyPattern */,
 				C2B204811ED6713600FCB408 /* main.cpp */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		C2B2048C1ED671E700FCB408 /* StrategyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				C2B2048D1ED671E700FCB408 /* StrategyPattern.cpp */,
+				C2B2048E1ED671E700FCB408 /* StrategyPattern.hpp */,
+				C2B06C071EDFB66F0057C82F /* Solider.cpp */,
+				C2B06C081EDFB66F0057C82F /* Solider.hpp */,
+				C2B06C0A1EDFB7430057C82F /* Infantryman.cpp */,
+				C2B06C0B1EDFB7430057C82F /* Infantryman.hpp */,
+				C2B06C0D1EDFB89F0057C82F /* Sniper.cpp */,
+				C2B06C0E1EDFB89F0057C82F /* Sniper.hpp */,
+				C2B06C101EDFE6830057C82F /* WeaponBehavior.cpp */,
+				C2B06C111EDFE6830057C82F /* WeaponBehavior.hpp */,
+			);
+			path = StrategyPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B06C0F1EDFB89F0057C82F /* Sniper.cpp in Sources */,
 				C2B204821ED6713600FCB408 /* main.cpp in Sources */,
+				C2B2048F1ED671E700FCB408 /* StrategyPattern.cpp in Sources */,
+				C2B06C121EDFE6830057C82F /* WeaponBehavior.cpp in Sources */,
+				C2B06C091EDFB66F0057C82F /* Solider.cpp in Sources */,
+				C2B06C0C1EDFB7430057C82F /* Infantryman.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +284,7 @@
 				C2B204871ED6713600FCB408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

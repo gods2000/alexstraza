@@ -11,4 +11,10 @@
 
 #include <stdio.h>
 
+class StrategyPattern {
+public:
+    StrategyPattern();
+    virtual ~StrategyPattern(){}
+};
+
 #endif /* StrategyPattern_hpp */
